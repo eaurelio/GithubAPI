@@ -31,7 +31,7 @@ function App(props) {
   return (
     <S.Div>
       <div>
-        <S.H1>Usuário do github</S.H1> <br/>
+        <S.H1>Informe o usuário do github</S.H1> <br/>
         <S.Input type="text" className="usuarioInput" placeholder="informe o usuário" value={usuario} onChange={e => setUsuario(e.target.value)}/>
         <S.Button onClick={handlePesquisa}>buscar</S.Button>
 

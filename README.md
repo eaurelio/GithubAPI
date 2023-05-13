@@ -1,9 +1,14 @@
 # Gamagit
 
-Este é o repositório de uma APP de consulta a API do GitHub.
+Esta é uma aplicação que faz a busca por um nome de usuário do GitHub e retorna todos os seus repositorios
 
 ## Descrição
 
-É informado um usuário (válido) e retornado uma lista com todos os repositórios desse usuário.
+Ao informar um nome de usuário (válido), será feita uma requisição a API do Github e retornará todos os repositórios deste usuário.
 
-O projeto foi desenvolvido no curso de React que fiz na Gama Academy
+## Conceitos e tecnologias aplicadas
+* Local Storage
+* React
+* React Hook - UseState
+* React Router
+* Requisição via Axios

@@ -21,9 +21,9 @@ export default function Repositories() {
       <S.H1>Repositórios</S.H1>
 
       <S.Ul>
-        {repositories.map(repo => {
+        {repositories.map((repo, i) => {
           return(
-            <S.Li>Repositório: {repo}</S.Li>
+            <S.Li key={i}>{i + 1} - {repo}</S.Li>
           )          
         })}
       </S.Ul>
