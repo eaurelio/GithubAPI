@@ -1,4 +1,4 @@
-# Gamagit
+# GithubAPI
 
 Esta é uma aplicação que faz a busca por um nome de usuário do GitHub e retorna todos os seus repositorios.
 
